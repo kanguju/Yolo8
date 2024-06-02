@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['glasses', 'sunglasses']
+
+roboflow:
+  workspace: pex-5-ylpua
+  project: pex5-gxq3t
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pex-5-ylpua/pex5-gxq3t/dataset/4

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['face_mask']
+
+roboflow:
+  workspace: lal-workspace
+  project: mask-detaction-occ5l
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/lal-workspace/mask-detaction-occ5l/dataset/1

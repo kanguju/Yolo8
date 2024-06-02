@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Cap']
+
+roboflow:
+  workspace: lastnatopromise-u6xtx
+  project: usman-mlypi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lastnatopromise-u6xtx/usman-mlypi/dataset/1

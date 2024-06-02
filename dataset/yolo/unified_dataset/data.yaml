@@ -1,0 +1,7 @@
+
+train: C:/Users/juwon/Desktop/machine learning/yolo/unified_dataset/train/images
+val: C:/Users/juwon/Desktop/machine learning/yolo/unified_dataset/valid/images
+test: C:/Users/juwon/Desktop/machine learning/yolo/unified_dataset/test/images
+
+nc: 3  # 클래스 수
+names: ['mask', 'glasses', 'cap']  # 클래스 이름
